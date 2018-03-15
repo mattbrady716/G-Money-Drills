@@ -4,7 +4,7 @@ var register =  {
 
 function addTransaction(transaction) {
   register.transactions.push(transaction)
-}// Your code here
+}
 
 function reset () {
   register.transactions = []
