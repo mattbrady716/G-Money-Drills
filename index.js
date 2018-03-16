@@ -1,5 +1,9 @@
 var register =  {
+<<<<<<< HEAD
   transactions: []
+=======
+  transactions: [];
+>>>>>>> aa78e2b234826655208dc12ba2940fbc1d7045ca
 }
 
 function addTransaction(transaction) {
@@ -7,7 +11,11 @@ function addTransaction(transaction) {
 }
 
 function reset () {
+<<<<<<< HEAD
   register.transactions = []
+=======
+  register.transactions = [];
+>>>>>>> aa78e2b234826655208dc12ba2940fbc1d7045ca
 }
 
 function countSalesOfType(item) {
@@ -25,8 +33,11 @@ function countSalesOfType(item) {
 
 function getTransactionsBetween(Date1, Date2){
   var transactions = [];
-  // console.log('x', register.transactions.length);
-  // console.log('Date1, Date2: ', Date1, Date2);
+<<<<<<< HEAD
+
+=======
+  
+>>>>>>> aa78e2b234826655208dc12ba2940fbc1d7045ca
   for (let i = 0; i < register.transactions.length; i++) {
     let datesTransactions = register.transactions[i];
     if (datesTransactions.date > new Date(Date1) && datesTransactions.date < new Date(Date2)){
@@ -44,3 +55,4 @@ module.exports = {
     getTransactionsBetween,
     reset,
 };
+
